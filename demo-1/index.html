@@ -1,0 +1,65 @@
+<!doctype>
+<html>
+    <head>
+        <title>Demo Splitter Module</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="../lib/at-splitter.css"/>
+    </head>
+    <body ng-app="Application">
+        <div id="container">
+            <div id="header-panel">
+                <h1>Splitterbar DEMO</h1>
+                <div id="navigation">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <splitter min="10%" max="90%" orientation="horizontal"></splitter>
+            <div id="body-panel">
+                <div class="middle-panel">
+                    <div class="left-panel">
+                        <div class="inner">
+                            <ul>
+                                <li><a href="#">Section page 1</a></li>
+                                <li><a href="#">Section page 2</a></li>
+                                <li><a href="#">Section page 3</a></li>
+                                <li><a href="#">Section page 4</a></li>
+                            </ul>
+                        </div>    
+                    </div>
+                    <splitter min="10%" max="90%" orientation="vertical"></splitter>
+                    <div class="right-panel">
+                        <div class="left-panel" style="width: 100%; overflow:auto;">
+                            <div class="inner">
+                                <h2>Page heading</h2>
+                                <p>Lorem ipsum dolor sit amet consect etuer adipi scing elit sed diam nonummy nibh euismod tinunt ut laoreet dolore magna aliquam erat volut. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                                <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <splitter min="10%" max="90%" orientation="horizontal"></splitter>
+            <div id="footer-panel">
+                <div class="inner">Copyright(c) Site name</div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        
+        <script src="../lib/jquery-2.1.1.js"></script>
+        <script src="../lib/angular-1.2.js"></script>
+        <script src="../lib/at-splitter.js"></script>
+        <script>
+        (function(){
+            var app = angular.module('Application', ['at-splitter']);
+        }());
+        </script>
+    </body>
+</html>    
