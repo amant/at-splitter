@@ -133,6 +133,12 @@ strong {
   font-weight: bold;
 }
 
+.light {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+
 img {
   position: relative;
   margin: 0 auto;
@@ -216,12 +222,10 @@ dl dt {
 
 dl dd {
   padding-left: 20px;
-  font-style: italic;
 }
 
 dl p {
   padding-left: 20px;
-  font-style: italic;
 }
 
 hr {
