@@ -1,0 +1,66 @@
+.at-splitter-vertical {
+    width: 5px;
+    height: 300px;  /* height of panel */
+    background-color: #f3f3f4;
+    border-width: 0 1px;
+    border-style: solid;
+    border-color: #dbdbde;
+
+    position: absolute !important;
+    left: 33%;
+    top: inherit;       /* top of panel  */
+
+    font-size: 1px;
+    cursor: col-resize;
+}   
+
+.at-splitter-horizontal {
+    width: 900px;
+    height: 5px;  /* height of panel */
+    border-width: 1px 0;
+    background-color: #f3f3f4;
+    border-style: solid;
+    border-color: #dbdbde;
+
+    position: absolute !important;
+    left: inherit;
+    top: 80px;       /* top of panel  */
+
+    font-size: 1px;
+    cursor: row-resize;
+}    
+
+.at-splitter-active {
+    background-color: #b6bdca;
+    z-index: 4;
+}        
+
+
+.at-splitter-vertical .at-splitter-icon {
+    position: absolute;
+    top: 50%;
+    width: 3px;
+    height: 20px;
+    margin-top: -10px;
+    background-color: #555;
+    border-radius: 2px;
+    left: 1px;
+}
+
+.at-splitter-horizontal .at-splitter-icon {
+    position: absolute;
+    left: 50%;
+    width: 20px;
+    height: 3px;
+    margin-left: -10px;
+    background-color: #555;
+    border-radius: 2px;
+    top: 1px;
+}
+
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}

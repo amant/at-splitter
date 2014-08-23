@@ -1,0 +1,143 @@
+a {
+    color: #428bca;
+}
+
+#container {
+    margin: 0 auto;
+    width: 100%;
+    background: #fff;
+    color: #515967;
+/*    height: 705px;*/
+/*    border: 1px solid green;*/
+}
+
+#header-panel {
+    background: rgba(60, 70, 80, 0.10);
+    padding: 0px;
+    width: 100%;
+    height: 105px;
+    float: left;
+/*    border: 1px solid blue;*/
+}
+
+#header-panel h1 { margin: 20px; }
+
+#navigation {
+    float: left;
+    width: 100%;
+    background: #2a2d33;
+    margin-top: 0px;
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+#navigation li a {
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+/*    border-right: 1px solid #fff;*/
+}
+
+#navigation li a:hover { background: #383; }
+
+#body-panel {
+    float: left;
+    width: 100%;
+    height: 50%;
+/*    border: 1px solid blue;*/
+}
+
+.left-panel {
+    float: left;
+    width: 80%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-color: rgba(60, 70, 80, 0.05);
+/*    border: 1px solid blue;*/
+}
+
+.left-panel ul {
+    margin: 0;
+    padding: 0;
+}
+
+.left-panel ul li {
+    margin: 0 0 1em;
+    padding: 0;
+    list-style-type: none;
+}
+
+.middle-panel {
+    float: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    background-color: rgba(60, 70, 80, 0.05);
+/*    border: 1px solid blue;*/
+}
+
+.middle-panel h2 { margin: 0; }
+
+.right-panel {
+    float: right;
+    width: 20%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background-color: rgba(60, 70, 80, 0.05);
+/*    border: 1px solid blue;*/
+}
+
+.right-panel h3 { margin: 0; }
+
+#footer-panel {
+    float: left;
+    background: rgba(60, 70, 80, 0.10);
+    text-align: right;
+    padding-top: 10px;
+    height: 50px;
+    width: 100%;
+/*    border: 1px solid blue;*/
+}
+
+.top-panel {
+    float: left;
+/*    background: #ccc;*/
+    height: 70%;
+    width: 100%;
+    overflow: auto;
+    /*border: 1px solid blue;*/
+}
+
+.bottom-panel {
+    float: left;
+/*    background: #ccc;*/
+    height: 30%;
+    width: 100%;
+    overflow: auto;
+    /*border: 1px solid blue;*/
+}
+
+.clear {
+    clear: both;
+}
+
+.inner {
+    margin: 10px;
+}
